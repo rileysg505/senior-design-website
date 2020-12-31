@@ -12,7 +12,7 @@ function Cards() {
             <CardItem
 
               src='images/Angelou-Lao.jpg'
-              text='Angelou Lao'
+              text='Angelou "raw dog" Lao'
               label='Team Leader'
               path='https://www.linkedin.com/in/angelou-lao/'
             />
@@ -31,7 +31,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/Vincent-Tran.png'
+              src='/images/Vincent-Tran.png'
               text='Vincent Tran'
               label='Market Analysis and Remote Research'
               path=''

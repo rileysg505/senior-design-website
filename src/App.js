@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import OurProduct from './components/pages/OurProduct';
 import MarketAndCompetitors from './components/pages/MarketAndCompetitors';
 import ContactUs from './components/pages/ContactUs';
+import Acknowledgements from './components/pages/Acknowledgements';
 
 
 
@@ -23,6 +24,7 @@ function App() {
        <Route path = '/our-product' exact component={OurProduct}></Route>
        <Route path = '/market-and-competitors' exact component={MarketAndCompetitors}></Route>
        <Route path = '/contact-us' exact component={ContactUs}></Route>
+       <Route path = '/acknowledgements' exact component= {Acknowledgements}></Route>
 
      </Switch>
      </Router>
